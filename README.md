@@ -4,7 +4,7 @@ Prototype : midi controller tower
 Introduction
 =====
 
-Les DJ et musiciens manipulant l'électronique se tiennent souvent debout penchés sur leurs machines dans des positions peu ergonomiques. Pourquoi ne pas créer un contrôleur midi qui leur permette de se tenir droit pendant qu'ils jouent.
+Les DJ et musiciens manipulant l'électronique se tiennent souvent debout penchés sur leurs machines dans des positions peu ergonomiques. Pourquoi ne pas créer un contrôleur midi qui leur permette de se tenir droit pendant qu'ils jouent ?
 
 
 Matériel
@@ -139,7 +139,7 @@ for (int i=0; i<NbJoystick*2; i++){
 Réalisation
 =====
 
-Voici ce que donne la première version de ce contrôleur midi:
+Voici la première version de ce contrôleur midi:
 
 [front]: /images/midi-controller-tower_front.jpg "midi-controller-tower - front"
 ![alt text][front]
@@ -155,7 +155,7 @@ Annexes
 Circuit
 ======
 
-Voici le montage électronique schématisé avec le logiciel [Fritzing](http://fritzing.org/). Je n'ai représenté qu'un capteur de chaque type par souci de lisibilité du schéma : un bouton, un capteur piezo, un joystick. Je n'ai pas trouvé le joystick 2 axes de Parallax dans les composants disponibles de Fritzing. Pour consulter le schéma de câblage exact de ce joystick, vous pouvez vous rendre sur le lien : [learn.parallax.com](http://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-devices/joystick)
+Ci-dessousle montage électronique schématisé avec le logiciel [Fritzing](http://fritzing.org/). Je n'ai représenté qu'un capteur de chaque type par souci de lisibilité du schéma : un bouton, un capteur piezo, un joystick. Je n'ai pas trouvé le joystick 2 axes de Parallax dans les composants disponibles de Fritzing. Pour consulter le schéma de câblage exact de ce joystick, vous pouvez vous rendre sur le lien : [learn.parallax.com](http://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-devices/joystick)
 
 [Fritzing]: /images/midi-controller-tower_Fritzing.jpg "midi-controller-tower - Fritzing"
 ![alt text][Fritzing]
