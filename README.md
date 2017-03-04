@@ -1,13 +1,13 @@
 # midi-controller-tower
 Prototype : midi controller tower
 
-Introduction
+Introduction :
 =====
 
 Les DJ et musiciens manipulant l'électronique se tiennent souvent debout penchés sur leurs machines dans des positions peu ergonomiques. Pourquoi ne pas créer un contrôleur midi qui leur permette de se tenir droit pendant qu'ils jouent ?
 
 
-Matériel
+Matériel :
 =====
 
 * 12 Boutons-poussoirs Digitast type 1RT fugitif
@@ -17,7 +17,7 @@ Matériel
 * 1 Carte Arduino Mega 2560
 
 
-Code
+Code :
 =====
 ```
 /*
@@ -136,7 +136,7 @@ for (int i=0; i<NbJoystick*2; i++){
 ```
 
 
-Réalisation
+Réalisation :
 =====
 
 Voici la première version de ce contrôleur midi:
@@ -148,11 +148,8 @@ Voici la première version de ce contrôleur midi:
 ![alt text][side]
 
 
-Annexes
-=====
 
-
-Circuit
+Circuit :
 ======
 
 Ci-dessousle montage électronique schématisé avec le logiciel [Fritzing](http://fritzing.org/). Je n'ai représenté qu'un capteur de chaque type par souci de lisibilité du schéma : un bouton, un capteur piezo, un joystick. Je n'ai pas trouvé le joystick 2 axes de Parallax dans les composants disponibles de Fritzing. Pour consulter le schéma de câblage exact de ce joystick, vous pouvez vous rendre sur le lien : [learn.parallax.com](http://learn.parallax.com/tutorials/language/propeller-c/propeller-c-simple-devices/joystick)
@@ -165,7 +162,7 @@ Ci-dessousle montage électronique schématisé avec le logiciel [Fritzing](http
 ![alt text][circuit]
 
 
-Découpe Laser 
+Découpe Laser :
 ======
 
 Création d'une boite de 11x11x40 cm dans Inkscape à l'aide du module TabbedBoxMaker. 
@@ -176,7 +173,7 @@ Création d'une boite de 11x11x40 cm dans Inkscape à l'aide du module TabbedBox
 ![alt text][lasercut]
 
 
-Assemblage 
+Assemblage :
 ======
 
 [wire]: /images/midi-controller-tower_wire.jpg "midi-controller-tower - wire"
@@ -186,7 +183,7 @@ Assemblage
 ![alt text][back]
 
 
-How To 
+How To :
 ======
 
 Pour utiliser le code ci-dessus, il faut installer le logiciel [Hairless midiserial ](http://projectgus.github.io/hairless-midiserial/)
